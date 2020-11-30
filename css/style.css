@@ -56,11 +56,14 @@ body {
     width: 60px;
 }
 
-.contact {
-    display: inline-block;
+.contact-link {
+    display: block;
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+.link-style {
     text-decoration: none;
     color: #730099;
 }
