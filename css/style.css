@@ -1,8 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     margin: 0;
     padding: 0;
     font-family: 'Markazi Text', serif;
-    background-color: #b3b3cc;
+    background-color: #8b5aa1;
 }
 
 .header {
@@ -66,4 +71,80 @@ body {
 .link-style {
     text-decoration: none;
     color: #730099;
+}
+
+.row::after {
+    display: block;
+    content: "";
+    clear: both;
+
+}
+
+.col {
+    float: left;
+}
+
+.col-1-2 {
+    width: 50%;
+} 
+
+footer {
+    background-color: #4d0066;
+}
+
+.conversation {
+    font-size: 45px;
+    color: white;
+}
+
+.contact-info-wrapper {
+    height: 304px;
+}
+
+.contact-info {
+    list-style-type: none;
+    color: white;
+}
+
+.contact-info li {
+    margin-bottom: 25px;
+}
+
+.contact-info li:last-of-type {
+    margin-bottom: 0;
+}
+
+.contact-info a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-info i {
+    display: inline-block;
+    width: 40px;
+    font-size: 24px;
+}
+
+.copy-right-wrapper {
+    height: 68px;
+    background-color: #660288;
+    color: white;
+}
+
+.copy-right {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.vertical-center-wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
 }
